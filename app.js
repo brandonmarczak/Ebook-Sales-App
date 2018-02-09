@@ -47,14 +47,3 @@ app.listen(port, () => {
   console.log(`Server started on port ${port}`);
 });
 
-
- /* 
-
- //Hide Default StripeButton
- <script>
-document.getElementsByClassName('stripe-button-el')[0].style.dislay = none;
-</script>
-
-<button type="submit" class="btn-btn-outline-dark text-white btn-lg">Purchase for $25</button>
-
-*/
